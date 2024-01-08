@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page - Guilherme Moura</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="close-menu" role="button" >
+    <label class="close-menu-label" for="close-menu"></label>
+    <div class="menu" onclick="getElementById('close-menu').checked = false">
+        <header class="header-content content">
+            <h1 class="logo">
+                <a href="#page-home">HOME</a>
+            </h1>
+            <nav class="navigation">
+                <ul class="body-text lista-1">
+                    <li><a href="#page-1">PÁGINA SIMPLES</a></li>
+                    <li><a href="#page-2">PÁGINA GRID</a></li>
+                    <li><a href="#page-3">PÁGINA GALERIA</a></li>
+                    <li><a href="#page-4">PÁGINA FORMULÁRIO</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <main>
+        <div id="page-home" class="pages background-1">
+            <section class="page-home content">
+                <div class="box-text">
+                    <h2 class="title-text-2">Projeto Landing Page</h2>
+                    <hr>
+                    <p class="body-text-1">
+                        Esse projeto foi construído baseado em um curso de HTML e CSS que eu estou fazendo. O projeto
+                        foi adaptado à minha maneira, mas baseado nos ensinamentos do curso em questão.
+                        <br>
+                        Nessa Landing Page eu demonstro minhas habilidades com HTML e CSS.
+                    </p>
+                </div>
+                <div class="page-home-image">
+                    <img src="assets/img/page-home-image.svg"
+                        alt="Imagem representativa com logo do HTML, JavaScript e CSS">
+                </div>
+            </section>
+        </div>
+
+        <div id="page-1" class="pages background-2">
+            <section class="page-1 content">
+                <div class="top-page-1">
+                    <h2 class="title-text-1 title-1">Página simples</h2>
+                    <p class="body-text">
+                        Esta é uma seção simples da Landing Page na qual eu manipulo algumas DIVS com caixas de textos.
+                    </p>
+                </div>
+                <div>
+                    <p class="body-text text-1 text-page-1">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Error asperiores harum
+                        maxime voluptatum quam deleniti quos aliquam tenetur officia quas. Asperiores nam ipsum eius
+                        recusandae vel, id necessitatibus quasi provident.
+                    </p>
+                    <p class="body-text text-2 text-page-1">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Praesentium,
+                        laborum
+                        laboriosam. Vel explicabo inventore aspernatur quam obcaecati molestiae commodi ea sit aliquid
+                        eos fugiat, ex sapiente molestias expedita omnis hic.
+                    </p>
+                    <p class="body-text text-3 text-page-1">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Eveniet illum
+                        esse inventore distinctio perspiciatis sed reiciendis error rem nihil, fugit sunt modi culpa cum
+                        eos commodi labore totam deserunt! Quas.
+                    </p>
+                </div>
+            </section>
+        </div>
+
+        <div id="page-2" class="pages background-1">
+            <section class="page-2 content">
+                <h2 class="title-text-2 title-text-page-2">
+                    Página Grid
+                </h2>
+                <p class="body-text-1 text-top-page-2">Esta é a pagina na qual eu trabalho com um "display: grid".<br>
+                    Eu fiz diversas manipulações para que ficasse da melhor forma visualmente.</p>
+                <div class="grid-page-2">
+                    <article class="grid-article-pt">
+                        <h3 class="title-text-2 title-text-grid">Resumo</h3>
+                        <p class="body-text-1 body-text-grid">A grid foi criada dentro de uma tag section, a qual contém
+                            todo o conteúdo da seção da
+                            página. A grid em questão
+                            possui 3 colunas e cada uma utiliza 1fr (uma fração). Os números apresentados antes dos
+                            títulos foram criados através de um contador e apresentados na forma de um
+                            pseudo-elemento.</p>
+                    </article>
+                    <article class="grid-article-en">
+                        <h3 class="title-text-2 title-text-grid">Summary</h3>
+                        <p class="body-text-1 body-text-grid">The grid was created inside a section tag, which contains
+                            all the
+                            content of the section of the page. The grid in question
+                            has 3 columns and each uses 1fr (a fraction). The numbers displayed before the titles
+                            were created using a counter and presented in the form of a pseudo-element.</p>
+                    </article>
+                    <article class="grid-article-es">
+                        <h3 class="title-text-2 title-text-grid">Resumen</h3>
+                        <p class="body-text-1 body-text-grid">La rejilla se creó dentro de una etiqueta section, que
+                            contiene todo
+                            el contenido de la sección de la página. La rejilla en cuestión
+                            tiene 3 columnas y cada una utiliza 1fr (una fracción). Los números que aparecen antes
+                            de los títulos se crearon utilizando un contador y se presentaron en forma de
+                            pseudoelemento.
+                        </p>
+                    </article>
+                </div>
+            </section>
+        </div>
+
+        <div id="page-3" class="pages background-2">
+            <section class="page-3 content">
+                <h2 class="title-text-1 title-page-3">
+                    Galeria
+                </h2>
+                <p class="body-text text-page-3">
+                    Nesta página eu trabalho novamente com "display: grid", mas de uma forma diferente pois trabalho com
+                    imagens.
+                    <br>
+                    Eu construi com a grid uma galeria e também trabalhei efeitos na galeria.
+                </p>
+                <div class="grid-gallery">
+                    <div class="gallery-img">
+                        <img src="http://source.unsplash.com/random/360x360?r=1" alt="random-image?">
+                    </div>
+                    <div class="gallery-img">
+                        <img src="http://source.unsplash.com/random/360x360?r=2" alt="random-image">
+                    </div>
+                    <div class="gallery-img">
+                        <img src="http://source.unsplash.com/random/360x360?r=3" alt="random-image">
+                    </div>
+                    <div class="gallery-img">
+                        <img src="http://source.unsplash.com/random/360x360?r=4" alt="random-image">
+                    </div>
+                    <div class="gallery-img">
+                        <img src="http://source.unsplash.com/random/360x360?r=5" alt="random-image">
+                    </div>
+                    <div class="gallery-img">
+                        <img src="http://source.unsplash.com/random/360x360?r=6" alt="random-image">
+                    </div>
+                </div>
+
+            </section>
+        </div>
+
+        <div id="page-4" class="pages background-1">
+            <section class="page-4 content">
+                <div class="grid-page-4">
+                    <div class="grid-text-page-4">
+                        <h3 class="title-text-2">CONTACT US</h3>
+                        <p class="body-text-1">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet temporibus pariatur sunt ab qui, laudantium architecto expedita quos cupiditate provident, esse molestiae voluptatem totam nobis. Nulla at error fugiat aperiam!
+                        </p>
+                    </div>
+                    <div class="grid-page-4-img">
+                        <img src="assets/img/grid-page-4-img.svg" alt="image-page-4">
+                    </div>
+                </div>
+                <div class="form-contact">
+                    <fieldset class="form-fieldset">
+                        <legend class="title-text-2 form-legend">Send me a message</legend>
+                        <div class="form-style">
+                            <label for="first-name" class="body-text-1 form-label">
+                                First name
+                            </label>
+                            <input type="text" name="first-name" id="first-name" placeholder="Your fisrt name">
+                        </div>
+                        <div class="form-style">
+                            <label for="last-name" class="body-text-1 form-label">
+                                Last name
+                            </label>
+                            <input type="text" name="last-name" id="last-name" placeholder="Your last name">
+                        </div>
+                        <div class="form-style">
+                            <label for="email" class="body-text-1 form-label">
+                                Email
+                            </label>
+                            <input type="email" name="email" id="email" placeholder="Your email">
+                        </div>
+                        <div class="form-style full-width">
+                            <label for="message" class="body-text-1 form-label">
+                                Message
+                            </label>
+                            <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                        </div>
+                        <div class="form-style">
+                            <button type="submit" class="body-text-1">
+                                Send message
+                            </button>
+                        </div>
+                    </fieldset>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <a class="back-top-top" href="#page-home"><p>&#10096;</p></a>
+    
+    <footer class="footer background-2">
+        <p><a href="https://www.github.com/guimoura-01" target="_blank">Made by Guilherme Moura</a></p>
+    </footer>
+
+</body>
+
+</html>
